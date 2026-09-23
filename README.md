@@ -12,7 +12,11 @@ Kelas  : A<br>
 `if jam_keluar < jam_masuk:
     lama_parkir = (jam_keluar + 24) - jam_masuk
 else:
-    lama_parkir = jam_keluar - jam_masuk` kalau semisalnya jam keluar itu lebih kecil dari jam masuk, berarti kendaraan parkir itu sudah melewati tengah malam, sehingga saya menambahkan 24 jam, sehingga hasil dari total biaya tidak negatif atau mines.<br> Kalau tidak maka cukup jam keluar - jam masuk.
+    lama_parkir = jam_keluar - jam_masuk` kalau semisalnya jam keluar itu lebih kecil dari jam masuk, berarti kendaraan parkir itu sudah melewati tengah malam, sehingga saya menambahkan 24 jam, sehingga hasil dari total biaya tidak negatif atau mines.<br> Kalau tidak maka cukup jam keluar - jam masuk.<br.
+`total = tarif * durasi` ini untuk menghitung total biaya parkiran<br>
+`return total` untuk mengembalikan kembali hasil total biaya parkiran dari function<br>
+
+`total_biaya = hitung_biaya_parkir(jenis, lama_parkir)` menggunakan `hitung_biaya_parkir` untuk menggunakan jenis kendaraan dan lama parkir hasilnya akan di simpan pada `total biaya`
 
 
 
