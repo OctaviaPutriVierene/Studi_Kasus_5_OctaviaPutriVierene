@@ -3,7 +3,11 @@ NIM    : 012<br>
 Kelas  : A<br>
 
 # Penjelasan:<br>
-
+'def hitung_biaya_parkir()' menerima 2 jenis parameter: 'jenis_kendaraan' dan 'durasi'<br>
+'return 0' di gunakan kalau semisalnya jenis kendaraan yang di input tidak sesuai<br>
+'jenis = input("masukkan jenis kendaraan(mobil/motor):")' ini program akan meminta input jenis kendaraan<br>
+'jam_masuk = int(input("masukkan jam masuk:"))' ini untuk input jam masuk<br>
+'jam_keluar = int(input("masukkan jam keluar:"))' ini untuk input jam keluar<br>
 
 
 
